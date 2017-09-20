@@ -10,10 +10,10 @@ import json
 from flask import request, config
 
 allowed_population_threshold = 0.51    # minimum allowed match %
-ancestry_speculation_threshold = 0.75  # standard ancestry speculation
+ancestry_speculation_threshold = 0.51  # standard ancestry speculation
 ancestry_allowed_populations = [ 'French & German', 'British & Irish', 'Finnish', 
-    'Scandinavian', 'Northern European', 'Eastern European', 'Balkan', 'Iberian', 
-    'Italian', 'Sardinian', 'Southern European' ]
+    'Scandinavian', 'Northern European', 'Northwestern European' 'Eastern European', 'Balkan', 'Iberian', 
+    'Italian', 'Sardinian', 'Southern European', 'Broadly Northwestern European', ' Broadly Southern European', 'Broadly European']
 # note: does not include "Ashkenazi" or "European"
 
 API_SERVER = "api.23andme.com"
